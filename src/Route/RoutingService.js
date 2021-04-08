@@ -4,7 +4,7 @@ import {View} from 'react-native';
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 
-import SplashScreen from '../SplashScreenModule/SplashScreen'
+import SplashScreen from '/Screens/SplashScreenModule/SplashScreen';
 
 const AppNavigator = createStackNavigator(
   {
@@ -30,7 +30,7 @@ export default class Route extends Component {
         {/* <Provider store={store}>
           <Navigation />
         </Provider> */}
-         <Navigation />
+        <Navigation />
       </View>
     );
   }
